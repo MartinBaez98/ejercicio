@@ -1,3 +1,3 @@
 Integrantes:
--Luna Padilla Luis Donaldo
--Guzman Gutierrez Jorge Alberto
+-López Báez Martín Alejandro
+-Jaime Ramos Oscar Enrique
