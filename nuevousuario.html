@@ -1,0 +1,70 @@
+﻿﻿<!DOCTYPE html>
+<!--START HTML-->
+<html lang = "es">
+<!--START HEAD-->
+<head> 
+    <meta charset = "UTF-8">
+    <form method="post" action ="http://miservidor.com/procesar.html"></form>
+      <title>nuevousuario.html</title>
+        </head>
+<!--END HEAD-->
+
+<div>
+<!--START BODY-->
+<body> 
+<!--START HEADER-->
+<header id="main-header">	   
+        <h1><b>NUEVO USUARIO</b></h1>   
+    </header>	
+    <!--END HEADER-->
+        
+    <!--START MAIN-->
+<main>     
+        <!--START ARTICLE-->
+        <article>
+            <ul>
+                <li><p><a href = "index.html">Inicio</a></p></li>
+                <li><p><a href = "nuevousuario.html">Nuevo Ususario</a></p></li>
+                <li><p><a href = "consultausuarios.html">Consulta Usuarios</a></p></li>
+                <li><p><a href = "nuevoarticulo.html">Nuevo Artículo</a></p></li>
+                <li><p><a href = "consultaarticulos.html">Consulta Artículo</a></p></li>    
+            </ul>
+                 <!--START FORM-->   
+                <form method="post" action ="http://miservidor.com/procesar.html">
+                      <p><label>Nombre:   </label>
+                        <input type="text" name="nombre" placeholder="Nombre completo" size="25"/> </p> 
+                      <p><label>Genero: </label>
+                        <input type="radio" name="genero" value="masculino"/> 
+                        <label>Masculino</label>
+                        <input type="radio" name="genero" value="femenino"/> 
+                        <label>Femenino</label></p>
+                      <p><label>Email:    </label>
+                        <input type="text" name="email" placeholder="email" size="25"/></p> 
+                      <p><label>Password: </label>
+                        <input type="text" name="password" placeholder="password" size="25"/></p>
+                        <p><input type="submit" value="Guardar"/></p>     
+                </form>
+                <!--END OF FORM-->
+        </article> 
+        <!--END OF ARTICLE-->  
+</main>
+<!--END OF MAIN-->
+<!--START FOOTER-->
+<footer>
+        <!--START DIV-->
+        <div>
+                                <ul>
+                                <li><p id="copyright">&copy; DAH2020 - Página creada por: Adriana Flores Ramírez</p></li>
+                             </ul>
+                                </div> 
+                <!--END OF DIV-->
+       
+</footer>
+<!--END OF FOOTER-->
+
+        </body>
+        <!--END OF BODY-->
+</div>
+<!--END OF DIV-->
+</html>
+<!--END OF HTML-->
